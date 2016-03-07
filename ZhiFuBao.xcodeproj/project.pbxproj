@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		D68159A61C8D582100F534CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68159A51C8D582100F534CC /* AppDelegate.swift */; };
-		D68159A81C8D582100F534CC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68159A71C8D582100F534CC /* FirstViewController.swift */; };
-		D68159AA1C8D582100F534CC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68159A91C8D582100F534CC /* SecondViewController.swift */; };
 		D68159AD1C8D582100F534CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D68159AB1C8D582100F534CC /* Main.storyboard */; };
 		D68159AF1C8D582100F534CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D68159AE1C8D582100F534CC /* Assets.xcassets */; };
 		D68159B21C8D582100F534CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D68159B01C8D582100F534CC /* LaunchScreen.storyboard */; };
+		D68159C51C8D67C600F534CC /* Asset in Resources */ = {isa = PBXBuildFile; fileRef = D68159C11C8D67C600F534CC /* Asset */; };
+		D68159C61C8D67C600F534CC /* Business in Resources */ = {isa = PBXBuildFile; fileRef = D68159C21C8D67C600F534CC /* Business */; };
+		D68159C71C8D67C600F534CC /* Friend in Resources */ = {isa = PBXBuildFile; fileRef = D68159C31C8D67C600F534CC /* Friend */; };
+		D68159C81C8D67C600F534CC /* Home in Resources */ = {isa = PBXBuildFile; fileRef = D68159C41C8D67C600F534CC /* Home */; };
+		D68159CC1C8D6D3D00F534CC /* APTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68159CB1C8D6D3D00F534CC /* APTabBarController.swift */; };
+		D68159CE1C8D829B00F534CC /* APColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68159CD1C8D829B00F534CC /* APColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D68159A21C8D582100F534CC /* ZhiFuBao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZhiFuBao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D68159A51C8D582100F534CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D68159A71C8D582100F534CC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		D68159A91C8D582100F534CC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		D68159AC1C8D582100F534CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D68159AE1C8D582100F534CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D68159B11C8D582100F534CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D68159B31C8D582100F534CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D68159C11C8D67C600F534CC /* Asset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Asset; sourceTree = "<group>"; };
+		D68159C21C8D67C600F534CC /* Business */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Business; sourceTree = "<group>"; };
+		D68159C31C8D67C600F534CC /* Friend */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Friend; sourceTree = "<group>"; };
+		D68159C41C8D67C600F534CC /* Home */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Home; sourceTree = "<group>"; };
+		D68159CB1C8D6D3D00F534CC /* APTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APTabBarController.swift; sourceTree = "<group>"; };
+		D68159CD1C8D829B00F534CC /* APColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +64,13 @@
 		D68159A41C8D582100F534CC /* ZhiFuBao */ = {
 			isa = PBXGroup;
 			children = (
+				D68159C11C8D67C600F534CC /* Asset */,
+				D68159C21C8D67C600F534CC /* Business */,
+				D68159C31C8D67C600F534CC /* Friend */,
+				D68159C41C8D67C600F534CC /* Home */,
 				D68159A51C8D582100F534CC /* AppDelegate.swift */,
-				D68159A71C8D582100F534CC /* FirstViewController.swift */,
-				D68159A91C8D582100F534CC /* SecondViewController.swift */,
+				D68159CB1C8D6D3D00F534CC /* APTabBarController.swift */,
+				D68159CD1C8D829B00F534CC /* APColors.swift */,
 				D68159AB1C8D582100F534CC /* Main.storyboard */,
 				D68159AE1C8D582100F534CC /* Assets.xcassets */,
 				D68159B01C8D582100F534CC /* LaunchScreen.storyboard */,
@@ -125,9 +137,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D68159C71C8D67C600F534CC /* Friend in Resources */,
 				D68159B21C8D582100F534CC /* LaunchScreen.storyboard in Resources */,
+				D68159C51C8D67C600F534CC /* Asset in Resources */,
+				D68159C61C8D67C600F534CC /* Business in Resources */,
 				D68159AF1C8D582100F534CC /* Assets.xcassets in Resources */,
 				D68159AD1C8D582100F534CC /* Main.storyboard in Resources */,
+				D68159C81C8D67C600F534CC /* Home in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D68159AA1C8D582100F534CC /* SecondViewController.swift in Sources */,
+				D68159CE1C8D829B00F534CC /* APColors.swift in Sources */,
+				D68159CC1C8D6D3D00F534CC /* APTabBarController.swift in Sources */,
 				D68159A61C8D582100F534CC /* AppDelegate.swift in Sources */,
-				D68159A81C8D582100F534CC /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +267,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ZhiFuBao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Lucifer.ZhiFuBao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -262,7 +280,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ZhiFuBao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Lucifer.ZhiFuBao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
